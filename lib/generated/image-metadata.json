@@ -1,0 +1,547 @@
+{
+  "/images/memories/when-we-met-as-kids/1.jpg": {
+    "width": 768,
+    "height": 1344,
+    "orientation": "portrait"
+  },
+  "/images/memories/first-date/1.jpg": {
+    "width": 3000,
+    "height": 4000,
+    "orientation": "portrait"
+  },
+  "/images/memories/first-date/2.png": {
+    "width": 1024,
+    "height": 1024,
+    "orientation": "square"
+  },
+  "/images/memories/our-first-day-as-a-couple/1.jpg": {
+    "width": 3000,
+    "height": 4000,
+    "orientation": "portrait"
+  },
+  "/images/memories/our-first-day-as-a-couple/2.jpg": {
+    "width": 3000,
+    "height": 4000,
+    "orientation": "portrait"
+  },
+  "/images/memories/our-first-day-as-a-couple/3.jpg": {
+    "width": 3000,
+    "height": 4000,
+    "orientation": "portrait"
+  },
+  "/images/memories/our-first-day-as-a-couple/4.jpg": {
+    "width": 3000,
+    "height": 4000,
+    "orientation": "portrait"
+  },
+  "/images/memories/our-first-day-as-a-couple/5.jpg": {
+    "width": 4000,
+    "height": 3000,
+    "orientation": "landscape"
+  },
+  "/images/memories/our-first-day-as-a-couple/6.jpg": {
+    "width": 4000,
+    "height": 3000,
+    "orientation": "landscape"
+  },
+  "/images/memories/our-first-day-as-a-couple/7.jpg": {
+    "width": 4000,
+    "height": 3000,
+    "orientation": "landscape"
+  },
+  "/images/memories/don-karne-date/1.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/don-karne-date/2.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/don-karne-date/3.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/don-karne-date/4.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/don-karne-date/5.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/pizza-hut-at-rubenia-date/1.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/pizza-hut-at-rubenia-date/2.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/pizza-hut-at-rubenia-date/3.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/pizza-hut-at-rubenia-date/4.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/pizza-hut-at-rubenia-date/5.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/los-robles-food-park-pupusas-date/1.jpg": {
+    "width": 2448,
+    "height": 3264,
+    "orientation": "portrait"
+  },
+  "/images/memories/los-robles-food-park-pupusas-date/2.jpg": {
+    "width": 2448,
+    "height": 3264,
+    "orientation": "portrait"
+  },
+  "/images/memories/los-robles-food-park-pupusas-date/3.jpg": {
+    "width": 2448,
+    "height": 3264,
+    "orientation": "portrait"
+  },
+  "/images/memories/los-robles-food-park-pupusas-date/4.jpg": {
+    "width": 2448,
+    "height": 3264,
+    "orientation": "portrait"
+  },
+  "/images/memories/los-robles-food-park-pupusas-date/5.jpg": {
+    "width": 3264,
+    "height": 2448,
+    "orientation": "landscape"
+  },
+  "/images/memories/los-robles-food-park-pupusas-date/6.jpg": {
+    "width": 2448,
+    "height": 3264,
+    "orientation": "portrait"
+  },
+  "/images/memories/los-robles-food-park-pupusas-date/7.jpg": {
+    "width": 2448,
+    "height": 3264,
+    "orientation": "portrait"
+  },
+  "/images/memories/los-robles-food-park-pupusas-date/8.jpg": {
+    "width": 2448,
+    "height": 3264,
+    "orientation": "portrait"
+  },
+  "/images/memories/korean-market-date/1.jpg": {
+    "width": 2448,
+    "height": 3264,
+    "orientation": "portrait"
+  },
+  "/images/memories/korean-market-date/2.jpg": {
+    "width": 2448,
+    "height": 3264,
+    "orientation": "portrait"
+  },
+  "/images/memories/korean-market-date/3.jpg": {
+    "width": 3264,
+    "height": 2448,
+    "orientation": "landscape"
+  },
+  "/images/memories/korean-market-date/4.jpg": {
+    "width": 3264,
+    "height": 2448,
+    "orientation": "landscape"
+  },
+  "/images/memories/korean-market-date/5.jpg": {
+    "width": 3264,
+    "height": 2448,
+    "orientation": "landscape"
+  },
+  "/images/memories/korean-market-date/6.jpg": {
+    "width": 3264,
+    "height": 2448,
+    "orientation": "landscape"
+  },
+  "/images/memories/korean-market-date/7.jpg": {
+    "width": 3264,
+    "height": 2448,
+    "orientation": "landscape"
+  },
+  "/images/memories/our-first-trip-laguna-de-apoyo/1.jpg": {
+    "width": 3000,
+    "height": 4000,
+    "orientation": "portrait"
+  },
+  "/images/memories/our-first-trip-laguna-de-apoyo/2.jpg": {
+    "width": 2448,
+    "height": 3264,
+    "orientation": "portrait"
+  },
+  "/images/memories/our-first-trip-laguna-de-apoyo/3.jpg": {
+    "width": 2448,
+    "height": 3264,
+    "orientation": "portrait"
+  },
+  "/images/memories/our-first-trip-laguna-de-apoyo/4.jpg": {
+    "width": 2448,
+    "height": 3264,
+    "orientation": "portrait"
+  },
+  "/images/memories/our-first-trip-laguna-de-apoyo/5.jpg": {
+    "width": 2448,
+    "height": 3264,
+    "orientation": "portrait"
+  },
+  "/images/memories/our-first-trip-laguna-de-apoyo/6.jpg": {
+    "width": 3000,
+    "height": 4000,
+    "orientation": "portrait"
+  },
+  "/images/memories/our-first-trip-laguna-de-apoyo/7.jpg": {
+    "width": 2448,
+    "height": 3264,
+    "orientation": "portrait"
+  },
+  "/images/memories/a-random-day-at-caracol-plaza/1.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/a-random-day-at-caracol-plaza/2.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/my-birthday-with-you/1.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/at-emanuel-graduation/1.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/at-emanuel-graduation/2.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/at-emanuel-graduation/3.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/at-emanuel-graduation/4.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/at-emanuel-graduation/5.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/at-emanuel-graduation/6.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/at-emanuel-graduation/7.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/at-emanuel-graduation/8.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/at-emanuel-graduation/9.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/at-emanuel-graduation/10.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/a-date-in-the-ruben-dario-theater/1.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/a-date-in-the-ruben-dario-theater/2.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/a-date-in-the-ruben-dario-theater/3.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/a-date-in-the-ruben-dario-theater/4.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/trip-to-catarina/1.jpg": {
+    "width": 3392,
+    "height": 1908,
+    "orientation": "landscape"
+  },
+  "/images/memories/trip-to-catarina/2.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/trip-to-catarina/3.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/trip-to-catarina/4.jpg": {
+    "width": 3392,
+    "height": 1908,
+    "orientation": "landscape"
+  },
+  "/images/memories/trip-to-catarina/5.jpg": {
+    "width": 3392,
+    "height": 1908,
+    "orientation": "landscape"
+  },
+  "/images/memories/trip-to-catarina/6.jpg": {
+    "width": 3392,
+    "height": 1908,
+    "orientation": "landscape"
+  },
+  "/images/memories/trip-to-nagarote/1.jpg": {
+    "width": 4000,
+    "height": 3000,
+    "orientation": "landscape"
+  },
+  "/images/memories/trip-to-nagarote/2.jpg": {
+    "width": 4160,
+    "height": 3120,
+    "orientation": "landscape"
+  },
+  "/images/memories/trip-to-nagarote/3.jpg": {
+    "width": 3120,
+    "height": 4160,
+    "orientation": "portrait"
+  },
+  "/images/memories/trip-to-nagarote/4.jpg": {
+    "width": 4160,
+    "height": 3120,
+    "orientation": "landscape"
+  },
+  "/images/memories/trip-to-nagarote/5.jpg": {
+    "width": 4160,
+    "height": 3120,
+    "orientation": "landscape"
+  },
+  "/images/memories/trip-to-nagarote/6.jpg": {
+    "width": 4160,
+    "height": 3120,
+    "orientation": "landscape"
+  },
+  "/images/memories/your-first-birthday-with-me/1.jpg": {
+    "width": 2605,
+    "height": 4080,
+    "orientation": "portrait"
+  },
+  "/images/memories/your-first-birthday-with-me/2.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/our-romantic-dinner-10-month/1.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/our-romantic-dinner-10-month/2.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/our-romantic-dinner-10-month/3.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/our-romantic-dinner-10-month/4.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/our-romantic-dinner-10-month/5.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/our-romantic-dinner-10-month/6.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/our-romantic-dinner-10-month/7.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/our-romantic-dinner-10-month/8.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/our-romantic-dinner-10-month/9.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/our-romantic-dinner-10-month/10.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/chainsaw-man-movie-date/1.jpg": {
+    "width": 3000,
+    "height": 4000,
+    "orientation": "portrait"
+  },
+  "/images/memories/chainsaw-man-movie-date/2.jpg": {
+    "width": 3000,
+    "height": 4000,
+    "orientation": "portrait"
+  },
+  "/images/memories/chainsaw-man-movie-date/3.jpg": {
+    "width": 4000,
+    "height": 3000,
+    "orientation": "landscape"
+  },
+  "/images/memories/chainsaw-man-movie-date/4.jpg": {
+    "width": 3000,
+    "height": 4000,
+    "orientation": "portrait"
+  },
+  "/images/memories/chainsaw-man-movie-date/5.jpg": {
+    "width": 3000,
+    "height": 4000,
+    "orientation": "portrait"
+  },
+  "/images/memories/chainsaw-man-movie-date/6.jpg": {
+    "width": 3000,
+    "height": 4000,
+    "orientation": "portrait"
+  },
+  "/images/memories/chainsaw-man-movie-date/7.jpg": {
+    "width": 4000,
+    "height": 3000,
+    "orientation": "landscape"
+  },
+  "/images/memories/chainsaw-man-movie-date/8.jpg": {
+    "width": 4000,
+    "height": 3000,
+    "orientation": "landscape"
+  },
+  "/images/memories/chainsaw-man-movie-date/9.jpg": {
+    "width": 4000,
+    "height": 3000,
+    "orientation": "landscape"
+  },
+  "/images/memories/chainsaw-man-movie-date/10.jpg": {
+    "width": 4000,
+    "height": 3000,
+    "orientation": "landscape"
+  },
+  "/images/memories/chainsaw-man-movie-date/11.jpg": {
+    "width": 3000,
+    "height": 4000,
+    "orientation": "portrait"
+  },
+  "/images/memories/chainsaw-man-movie-date/12.jpg": {
+    "width": 3000,
+    "height": 4000,
+    "orientation": "portrait"
+  },
+  "/images/memories/chainsaw-man-movie-date/13.jpg": {
+    "width": 3000,
+    "height": 4000,
+    "orientation": "portrait"
+  },
+  "/images/memories/chainsaw-man-movie-date/14.jpg": {
+    "width": 3000,
+    "height": 4000,
+    "orientation": "portrait"
+  },
+  "/images/memories/trip-to-punta-cacique-double-date/1.jpg": {
+    "width": 3000,
+    "height": 4000,
+    "orientation": "portrait"
+  },
+  "/images/memories/trip-to-punta-cacique-double-date/2.jpg": {
+    "width": 3000,
+    "height": 3972,
+    "orientation": "portrait"
+  },
+  "/images/memories/trip-to-punta-cacique-double-date/3.jpg": {
+    "width": 3000,
+    "height": 4000,
+    "orientation": "portrait"
+  },
+  "/images/memories/trip-to-punta-cacique-double-date/4.jpg": {
+    "width": 3000,
+    "height": 4000,
+    "orientation": "portrait"
+  },
+  "/images/memories/trip-to-punta-cacique-double-date/5.jpg": {
+    "width": 3000,
+    "height": 4000,
+    "orientation": "portrait"
+  },
+  "/images/memories/trip-to-punta-cacique-double-date/6.jpg": {
+    "width": 3000,
+    "height": 4000,
+    "orientation": "portrait"
+  },
+  "/images/memories/trip-to-punta-cacique-double-date/7.jpg": {
+    "width": 3000,
+    "height": 4000,
+    "orientation": "portrait"
+  },
+  "/images/memories/trip-to-punta-cacique-double-date/8.jpg": {
+    "width": 3000,
+    "height": 4000,
+    "orientation": "portrait"
+  },
+  "/images/memories/trip-to-punta-cacique-double-date/9.jpg": {
+    "width": 3000,
+    "height": 4000,
+    "orientation": "portrait"
+  },
+  "/images/memories/trip-to-punta-cacique-double-date/10.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/she-invited-me-to-watch-superman-omg/1.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  },
+  "/images/memories/she-invited-me-to-watch-superman-omg/2.jpg": {
+    "width": 4000,
+    "height": 2252,
+    "orientation": "landscape"
+  }
+}
