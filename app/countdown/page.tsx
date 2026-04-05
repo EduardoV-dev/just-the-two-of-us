@@ -145,32 +145,45 @@ export default function CountdownPage() {
           className="font-heading text-3xl md:text-4xl lg:text-5xl text-text-primary mb-4 leading-tight"
           variants={heroText}
         >
-          Algo especial se esta preparando para ti...
+          Estoy preparando algo especial para ti mi amorcito 🦁✨
         </motion.h1>
 
         <motion.p
           className="text-text-secondary text-base md:text-lg mb-12 leading-relaxed"
           variants={fadeInUp}
         >
-          Cada segundo que pasa nos acerca mas a algo hermoso. Ten paciencia, mi
+          Cada segundo que pasa nos acerca más a algo hermoso. Ten paciencia, mi
           niña hermosa 🤍🦁✨.
         </motion.p>
       </motion.div>
 
       {/* Countdown timer */}
+      {/* Below 400px: 2×2 grid (days+hours / minutes+seconds) */}
+      {/* 400px+: single row with separators */}
       <motion.div
         initial="hidden"
         animate="visible"
         variants={fadeInUp}
-        className="flex items-start gap-2 md:gap-4"
+        className="flex flex-col min-[400px]:flex-row items-center gap-4 min-[400px]:gap-2 md:gap-4"
       >
-        <TimeUnit value={timeLeft.days} label="Dias" />
-        <Separator />
-        <TimeUnit value={timeLeft.hours} label="Horas" />
-        <Separator />
-        <TimeUnit value={timeLeft.minutes} label="Minutos" />
-        <Separator />
-        <TimeUnit value={timeLeft.seconds} label="Segundos" />
+        {/* Days + Hours */}
+        <div className="flex items-start gap-3 min-[400px]:gap-2 md:gap-4">
+          <TimeUnit value={timeLeft.days} label="Dias" />
+          <Separator />
+          <TimeUnit value={timeLeft.hours} label="Horas" />
+        </div>
+
+        {/* Separator between pairs — only visible on 400px+ */}
+        <div className="hidden min-[400px]:block">
+          <Separator />
+        </div>
+
+        {/* Minutes + Seconds */}
+        <div className="flex items-start gap-3 min-[400px]:gap-2 md:gap-4">
+          <TimeUnit value={timeLeft.minutes} label="Minutos" />
+          <Separator />
+          <TimeUnit value={timeLeft.seconds} label="Segundos" />
+        </div>
       </motion.div>
 
       {/* Subtle footer message */}
@@ -180,7 +193,8 @@ export default function CountdownPage() {
         transition={{ delay: 1.2, duration: 0.8 }}
         className="text-text-muted text-sm mt-12"
       >
-        Solo un poquito mas...
+        Solo un poco más, cuando te des cuenta, ya será el gran día. Te amo
+        🤍...
       </motion.p>
     </div>
   );
