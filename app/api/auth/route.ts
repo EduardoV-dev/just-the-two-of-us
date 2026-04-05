@@ -38,7 +38,7 @@ export async function POST(request: Request) {
     });
 
     // Determine redirect destination based on countdown lock state
-    const isProduction = process.env.NODE_ENV === "production";
+    const isProduction = process.env.ENVIRONMENT === "production";
     const isBeforeUnlock = new Date() < UNLOCK_DATE;
 
     // Parse preview cookie from the raw request headers

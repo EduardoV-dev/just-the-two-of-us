@@ -8,7 +8,7 @@ const UNLOCK_DATE = new Date(
 );
 
 function isContentLocked(request: NextRequest): boolean {
-  const isProduction = process.env.NODE_ENV === "production";
+  const isProduction = process.env.ENVIRONMENT === "production";
   const hasPreviewCookie =
     request.cookies.get("preview")?.value === "true";
 
