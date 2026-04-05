@@ -2,35 +2,35 @@
   {
     "id": "when-we-met-as-kids",
     "title": "Cuando Nos Conocimos de Niños",
-    "date": "2015-06-15",
-    "createdAt": "2024-06-01",
-    "description": "Antes de saber lo que éramos, ya nos habíamos encontrado. El universo tenía un plan desde entonces.",
-    "fullDescription": "Nadie hubiera predicho que aquel encuentro de niños terminaría aquí. A veces pienso en ese momento y me da ternura saber que ya te conocía, aunque no lo supiera del todo. La vida nos separó por un tiempo, pero siempre nos volvería a cruzar.",
+    "date": "2010-11-15T00:00:00",
+    "createdAt": "2026-04-04",
+    "description": "Quien diría que ya nos habíamos conocido. El universo tenía un plan desde entonces.",
+    "fullDescription": "El conocernos de pequeños y en nuestra graduación fué algo mágico, porque ninguno sabía que ya nos conocíamos, hasta que nos enseñamos ésta foto y supimos que éramos nosotros, destinados a estar juntos desde entonces.",
     "feeling": "Qué cosa tan linda es el destino.",
     "images": ["/images/memories/when-we-met-as-kids/1.jpg"],
-    "tags": ["hito", "infancia"]
+    "tags": ["hito"]
   },
   {
     "id": "first-date",
-    "title": "Nuestra Primera Cita",
-    "date": "2024-04-20",
-    "createdAt": "2024-04-22",
-    "description": "Estaba nervioso pero feliz. En el momento en que te vi, todo se sintió perfecto.",
-    "fullDescription": "Recuerdo cada detalle de esa tarde. Cómo la luz capturaba tus ojos cuando te reías, cómo hablamos durante horas sin notar el tiempo pasar. Supe desde ese primer instante que algo hermoso estaba comenzando.",
-    "feeling": "Mi corazón latía a mil, pero de la mejor manera posible.",
+    "title": "Nuestra Primera Cita (House Gastropub - Show de Comedia)",
+    "date": "2025-02-16T00:00:00",
+    "createdAt": "2026-04-04",
+    "description": "Una cita que recuerdo siempre, es la primera vez que salimos juntos fuera de las clases de baile. Fue el inicio de algo hermoso.",
+    "fullDescription": "Recuerdo haberte invitado a una cita algo curiosa, era algo que estaba interesado en ver, un show de comedia. Al ir en la moto hacia tu casa para recogerte, me hacía sentir nervioso pero emocionado. Fué una buena primera cita, nos reímos mucho ésa noche.",
+    "feeling": "Nervioso, emocionado, y muy feliz de estar contigo.",
     "images": [
       "/images/memories/first-date/1.jpg",
       "/images/memories/first-date/2.png"
     ],
-    "tags": ["hito", "primera-vez"]
+    "tags": ["hito"]
   },
   {
     "id": "our-first-day-as-a-couple",
     "title": "Nuestro Primer Día como Pareja",
-    "date": "2024-05-10",
-    "createdAt": "2024-05-12",
-    "description": "El día que lo hicimos oficial. El día que empezamos a ser nosotros.",
-    "fullDescription": "Hubo un momento exacto en que dejamos de ser dos personas que se gustaban y nos convertimos en algo más. Este día lo guardo como uno de los más importantes de mi vida. Todo cambió, y para bien.",
+    "date": "2025-04-27T00:00:00",
+    "createdAt": "2026-04-04",
+    "description": "El día que nuestra vida en pareja empezó, buscaba que fuera en un lugar bonito, memorable y darte algo pudieramos llevar siempre con nosotros.",
+    "fullDescription": "Ya estaba preparada y sabía lo que íba a hacer, y tú también sabías, ya que te había mencionado que con unas cuantas citas más, y ya formalizaríamos lo nuestro, el tiempo que nos conocimos fué lo ideal para saber el uno del otro. Para sellar nuestro compromiso como algo importante y especial, decidí darte un anillo de promesa o noviazgo; simbolizando que no importa dónde estemos, siempore nos llevamos el uno al otro con nosotros.",
     "feeling": "Me sentí el hombre más afortunado del mundo.",
     "images": [
       "/images/memories/our-first-day-as-a-couple/1.jpg",
@@ -46,11 +46,11 @@
   {
     "id": "don-karne-date",
     "title": "Cita en Don Karne",
-    "date": "2024-06-08",
+    "date": "2025-07-28T00:00:00",
     "createdAt": "2024-06-09",
-    "description": "Una cita simple que se convirtió en un recuerdo que no quiero olvidar.",
-    "fullDescription": "No hace falta un lugar lujoso cuando la compañía es la correcta. Nos reímos, comimos rico y simplemente disfrutamos estar juntos. Eso es lo que me gusta de nosotros: hacemos especial cualquier momento.",
-    "feeling": "Tranquilo, contento, y muy enamorado.",
+    "description": "Una cita en un restaurante de carne, con buena comida y mejor compañía, ¿Qué más se puede pedir en ésta vida?",
+    "fullDescription": "De camino al teatro, decidimos pasar a Don Karne ya que nos quedaba de paso, éste día tomamos unas fotos espectaculares, donde te miras completamente hermosa como siempre.",
+    "feeling": "Estaba relajado, feliz y muy agradecido de compartir tiempo contigo.",
     "images": [
       "/images/memories/don-karne-date/1.jpg",
       "/images/memories/don-karne-date/2.jpg",
@@ -63,10 +63,10 @@
   {
     "id": "pizza-hut-at-rubenia-date",
     "title": "Pizza Hut en Rubenia",
-    "date": "2024-07-15",
-    "createdAt": "2024-07-16",
-    "description": "Pizza, tú, y una tarde perfecta. No necesitaba más.",
-    "fullDescription": "Hay algo mágico en compartir una pizza contigo. La conversación fluye, el tiempo se detiene un poco, y me doy cuenta otra vez de lo bien que la paso a tu lado. Incluso los planes más sencillos se vuelven especiales.",
+    "date": "2025-12-25",
+    "createdAt": "2026-04-04",
+    "description": "Pizza, tú, y una noche en paz. El amor puede ser bonito y sencillo a veces.",
+    "fullDescription": "Veníamos de pasar tiempo juntos en mi casa, aunque no pudimos estar juntos el 24 de diciembre, siento que recuperamos ese tiempo, ir a comer pizza solo fué una excusa para seguir compartiendo tiempo juntos.",
     "feeling": "Feliz y agradecido de tener alguien con quien compartir hasta lo cotidiano.",
     "images": [
       "/images/memories/pizza-hut-at-rubenia-date/1.jpg",
@@ -80,11 +80,11 @@
   {
     "id": "los-robles-food-park-pupusas-date",
     "title": "Pupusas en Los Robles Food Park",
-    "date": "2024-08-03",
-    "createdAt": "2024-08-04",
-    "description": "Pupusas, fresco y tú. Una combinación imbatible.",
-    "fullDescription": "Esa noche en Los Robles fue de esas que no planeas mucho pero terminan siendo perfectas. Caminamos, comimos, nos reímos y disfrutamos el ambiente. Me gusta explorar la ciudad contigo.",
-    "feeling": "Liviano y lleno, en todos los sentidos.",
+    "date": "2025-07-13",
+    "createdAt": "2026-07-15",
+    "description": "Que ricas las pupusas, pero nada como probar cosas nuevas juntos.",
+    "fullDescription": "No recuerdo muy bien porque llegamos ahí, pero fué algo que no planeamos mucho, algo que ambos decidimos y quien diría que de un plan tan simple, saldrían recuerdos tan lindos, que tengo uno de ellos enmarcado en mi escritorio.",
+    "feeling": "Estómago lleno, corazón contento.",
     "images": [
       "/images/memories/los-robles-food-park-pupusas-date/1.jpg",
       "/images/memories/los-robles-food-park-pupusas-date/2.jpg",
@@ -99,8 +99,8 @@
   },
   {
     "id": "korean-market-date",
-    "title": "El Mercado Coreano",
-    "date": "2024-08-25",
+    "title": "El Mercado Coreano en Galerías Santo Domingo",
+    "date": "2025-11-03",
     "createdAt": "2024-08-26",
     "description": "Probamos cosas nuevas juntos. Me encanta que te atrevas a todo.",
     "fullDescription": "Explorar ese mercado contigo fue una experiencia distinta y divertida. Probamos sabores raros, miramos cosas curiosas, y como siempre — terminamos riéndonos de cualquier cosa. Eres mi compañera de aventuras favorita.",
@@ -119,7 +119,7 @@
   {
     "id": "our-first-trip-laguna-de-apoyo",
     "title": "Nuestro Primer Viaje: Laguna de Apoyo",
-    "date": "2024-09-07",
+    "date": "2025-04-20",
     "createdAt": "2024-09-10",
     "description": "Manejamos lejos, cantamos horrible y amamos cada segundo.",
     "fullDescription": "Ese fin de semana me enseñó mucho sobre nosotros. La forma en que navegamos juntos, literal y figuradamente. Cada giro equivocado se convirtió en una aventura. La Laguna de Apoyo fue el escenario perfecto para uno de nuestros mejores recuerdos.",
@@ -138,7 +138,7 @@
   {
     "id": "a-random-day-at-caracol-plaza",
     "title": "Un Día Cualquiera en Caracol Plaza",
-    "date": "2024-09-28",
+    "date": "2025-06-15",
     "createdAt": "2024-09-29",
     "description": "No todo tiene que ser un gran plan. A veces lo mejor es simplemente estar.",
     "fullDescription": "Caracol Plaza, una tarde sin nada urgente que hacer. Solo nosotros dos caminando, charlando, viéndonos en los aparadores y riendo de tonterías. Los días sin plan suelen ser los más bonitos.",
@@ -152,7 +152,7 @@
   {
     "id": "my-birthday-with-you",
     "title": "Mi Cumpleaños Contigo",
-    "date": "2024-10-12",
+    "date": "2025-08-26",
     "createdAt": "2024-10-13",
     "description": "El mejor regalo de ese día eras tú.",
     "fullDescription": "No recuerdo otro cumpleaños en que me haya sentido tan querido. No es por las cosas materiales — es por la energía que pones en todo. Me hiciste sentir especial de una manera que no olvido.",
@@ -163,7 +163,7 @@
   {
     "id": "at-emanuel-graduation",
     "title": "Graduación de Emanuel",
-    "date": "2024-10-26",
+    "date": "2025-12-06",
     "createdAt": "2024-10-27",
     "description": "Un día especial para la familia, y tú estuviste ahí.",
     "fullDescription": "Fue una celebración familiar importante, y que hayas estado ahí lo hizo todo más significativo. Ver cómo te integras, cómo te ries con todos, eso me dice mucho de quién eres. Gracias por estar en los momentos que importan.",
@@ -185,7 +185,7 @@
   {
     "id": "a-date-in-the-ruben-dario-theater",
     "title": "Una Cita en el Teatro Rubén Darío",
-    "date": "2024-11-15",
+    "date": "2025-07-28",
     "createdAt": "2024-11-16",
     "description": "Cultura, arte, y tú a mi lado. Una noche para recordar.",
     "fullDescription": "Ir al Teatro Rubén Darío contigo fue algo diferente a lo que acostumbramos, y fue precisamente eso lo que lo hizo tan especial. Me gusta que podamos disfrutar distintos tipos de momentos juntos — desde lo más casual hasta lo más elegante.",
@@ -201,7 +201,7 @@
   {
     "id": "trip-to-catarina",
     "title": "Viaje a Catarina",
-    "date": "2024-11-30",
+    "date": "2026-02-15",
     "createdAt": "2024-12-01",
     "description": "Vista espectacular, aire fresco, y la mejor compañía.",
     "fullDescription": "Catarina siempre ha sido un lugar especial, pero contigo tomó un significado completamente diferente. El mirador, el frío ligero, los colores del atardecer… todo se quedó grabado. Me gusta ver el mundo desde las alturas contigo.",
@@ -219,7 +219,7 @@
   {
     "id": "trip-to-nagarote",
     "title": "Viaje a Nagarote",
-    "date": "2024-12-14",
+    "date": "2025-05-11",
     "createdAt": "2024-12-15",
     "description": "Lejos de la ciudad, cerca de ti.",
     "fullDescription": "Nagarote no es el destino más glamoroso, pero cuando estás conmigo cualquier lugar se convierte en aventura. Ese viaje me recordó que lo que importa no es a dónde vas, sino con quién.",
@@ -237,7 +237,7 @@
   {
     "id": "your-first-birthday-with-me",
     "title": "Tu Primer Cumpleaños Juntos",
-    "date": "2025-01-18",
+    "date": "2026-01-26",
     "createdAt": "2025-01-19",
     "description": "Quería que sintieras lo especial que eres. Espero haberlo logrado.",
     "fullDescription": "Tu cumpleaños fue una de las fechas que más esperé desde que empezamos. Quería hacerte sentir tan querida como me haces sentir a mí todos los días. No sé si lo logré del todo, pero sé que lo intenté con todo el corazón.",
@@ -251,7 +251,7 @@
   {
     "id": "our-romantic-dinner-10-month",
     "title": "Nuestra Cena Romántica: 10 Meses",
-    "date": "2025-03-10",
+    "date": "2026-02-27",
     "createdAt": "2025-03-12",
     "description": "Diez meses contigo. Diez meses que se sienten a la vez cortos y enormes.",
     "fullDescription": "Quise que esa noche fuera especial. Una cena tranquila, solo nosotros dos, mirando hacia atrás con gratitud y hacia adelante con ilusión. Diez meses de crecer juntos, de conocernos más, de elegarnos cada día.",
@@ -273,7 +273,7 @@
   {
     "id": "chainsaw-man-movie-date",
     "title": "Cita: La Película de Chainsaw Man",
-    "date": "2025-04-05",
+    "date": "2025-10-27",
     "createdAt": "2025-04-06",
     "description": "Dos frikis, una película épica, y mucho que comentar después.",
     "fullDescription": "Ver Chainsaw Man en cine contigo fue una experiencia completamente diferente. Entre las reacciones, los comentarios en voz baja y las miraditas durante las escenas épicas, la disfruté el doble. Gracias por compartir este tipo de momentos conmigo.",
@@ -299,7 +299,7 @@
   {
     "id": "trip-to-punta-cacique-double-date",
     "title": "Punta Cacique: Doble Cita",
-    "date": "2025-05-25",
+    "date": "2025-06-24",
     "createdAt": "2025-05-26",
     "description": "El mar, buena compañía, y recuerdos que guardar.",
     "fullDescription": "Salir en doble cita tiene su magia especial, pero lo que más recuerdo de ese día eres tú — tus risas, tu energía, lo bien que te ves con el sol de fondo. Punta Cacique fue el escenario perfecto.",
@@ -321,7 +321,7 @@
   {
     "id": "she-invited-me-to-watch-superman-omg",
     "title": "Me Invitaste a Ver Superman 😱",
-    "date": "2025-07-12",
+    "date": "2025-07-19",
     "createdAt": "2025-07-13",
     "description": "Que seas tú quien me invite al cine aún me parece un sueño.",
     "fullDescription": "Cuando me dijiste que querías ir a ver Superman sentí algo muy bonito — no solo entusiasmo por la película, sino gratitud de que seas el tipo de persona que toma ese tipo de iniciativas. La película estuvo genial, pero la compañía lo fue más.",

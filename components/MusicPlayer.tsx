@@ -77,11 +77,11 @@ export default function MusicPlayer() {
             {/* Album art + info row */}
             <div className="flex items-center gap-3 p-4 pb-3">
               {/* Album art */}
-              <div className="relative flex-shrink-0 w-12 h-12">
+              <div className="relative shrink-0 w-12 h-12">
                 <div className="w-12 h-12 rounded-full bg-accent-light border-2 border-accent/30 overflow-hidden flex items-center justify-center">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/images/cover.jpg"
+                    src="/images/song-covers/just-the-two-of-us.jpg"
                     alt="Portada del álbum"
                     className={`w-full h-full object-cover ${isPlaying ? "animate-spin-slow" : ""}`}
                     onError={(e) => {

@@ -79,6 +79,11 @@ export default function MusicProvider({
     };
   }, []);
 
+  useEffect(() => {
+    // Try to play immediately if we already know the user interacted before (e.g. navigating from another page)
+    audioRef.current?.play().catch(() => {});
+  }, []);
+
   const toggle = useCallback(() => {
     const audio = audioRef.current;
     if (!audio) return;

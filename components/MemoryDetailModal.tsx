@@ -1,9 +1,11 @@
 "use client";
 
-import { useEffect, useCallback, useState } from "react";
+import { useEffect, useCallback, useState, useRef } from "react";
 import { createPortal } from "react-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
+import useEmblaCarousel from "embla-carousel-react";
+import Fade from "embla-carousel-fade";
 import { formatDate } from "@/lib/content";
 import type { Memory } from "@/lib/types";
 
@@ -22,13 +24,39 @@ function MemoryDetailContent({
   const [currentImage, setCurrentImage] = useState(0);
   const [showInfo, setShowInfo] = useState(false);
 
+  const [emblaRef, emblaApi] = useEmblaCarousel(
+    { loop: false, dragFree: false, watchDrag: memory.images.length > 1 },
+    [Fade()]
+  );
+
+  // Sync Embla's selected index with our state
+  useEffect(() => {
+    if (!emblaApi) return;
+    const onSelect = () => {
+      setCurrentImage(emblaApi.selectedScrollSnap());
+    };
+    emblaApi.on("select", onSelect);
+    return () => {
+      emblaApi.off("select", onSelect);
+    };
+  }, [emblaApi]);
+
+  // Reset when memory changes
+  useEffect(() => {
+    setCurrentImage(0);
+    setShowInfo(false);
+    if (emblaApi) {
+      emblaApi.scrollTo(0, true);
+    }
+  }, [memory.id, emblaApi]);
+
   const goNext = useCallback(() => {
-    setCurrentImage((prev) => Math.min(memory.images.length - 1, prev + 1));
-  }, [memory.images.length]);
+    if (emblaApi) emblaApi.scrollNext();
+  }, [emblaApi]);
 
   const goPrev = useCallback(() => {
-    setCurrentImage((prev) => Math.max(0, prev - 1));
-  }, []);
+    if (emblaApi) emblaApi.scrollPrev();
+  }, [emblaApi]);
 
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
@@ -52,13 +80,25 @@ function MemoryDetailContent({
     };
   }, [handleKeyDown]);
 
-  // Reset image index when memory changes
-  useEffect(() => {
-    setCurrentImage(0);
-    setShowInfo(false);
-  }, [memory.id]);
-
   const hasMultiple = memory.images.length > 1;
+
+  // Track pointer to distinguish taps from drags
+  const pointerStartRef = useRef<{ x: number; y: number } | null>(null);
+  const TAP_THRESHOLD = 10; // px — movement below this is a tap
+
+  const handlePointerDown = useCallback((e: React.PointerEvent) => {
+    pointerStartRef.current = { x: e.clientX, y: e.clientY };
+  }, []);
+
+  const handlePointerUp = useCallback((e: React.PointerEvent) => {
+    if (!pointerStartRef.current) return;
+    const dx = Math.abs(e.clientX - pointerStartRef.current.x);
+    const dy = Math.abs(e.clientY - pointerStartRef.current.y);
+    if (dx < TAP_THRESHOLD && dy < TAP_THRESHOLD) {
+      setShowInfo((prev) => !prev);
+    }
+    pointerStartRef.current = null;
+  }, []);
 
   return createPortal(
     <motion.div
@@ -69,51 +109,30 @@ function MemoryDetailContent({
       exit={{ opacity: 0 }}
       transition={{ duration: 0.25 }}
     >
-        {/* Image area — fills entire screen */}
-        <div className="relative w-full h-full">
-          <AnimatePresence mode="wait">
-            <motion.div
-              key={currentImage}
-              className="absolute inset-0"
-              style={{ background: 'black' }}
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.3 }}
-              drag={hasMultiple ? "x" : false}
-              dragConstraints={{ left: 0, right: 0 }}
-              dragElastic={0.15}
-              dragSnapToOrigin
-              onDragEnd={(_, info) => {
-                const threshold = 50;
-                const velocity = 500;
-                if (info.offset.x < -threshold || info.velocity.x < -velocity) {
-                  goNext();
-                } else if (info.offset.x > threshold || info.velocity.x > velocity) {
-                  goPrev();
-                }
-              }}
-            >
-              {memory.images[currentImage] && (
+      {/* Image area — fills entire screen */}
+      <div className="relative w-full h-full">
+        {/* Embla Carousel */}
+        <div
+          className="embla-memory"
+          ref={emblaRef}
+          onPointerDown={handlePointerDown}
+          onPointerUp={handlePointerUp}
+        >
+          <div className="embla-memory__container">
+            {memory.images.map((src, idx) => (
+              <div key={idx} className="embla-memory__slide">
                 <Image
-                  src={memory.images[currentImage]}
-                  alt={`${memory.title} — imagen ${currentImage + 1}`}
+                  src={src}
+                  alt={`${memory.title} — imagen ${idx + 1}`}
                   fill
                   className="object-contain"
                   sizes="100vw"
-                  priority
+                  priority={idx === 0}
                 />
-              )}
-            </motion.div>
-          </AnimatePresence>
-
-          {/* Tap image center to toggle info */}
-          <button
-            className="absolute inset-0 w-full h-full cursor-default"
-            onClick={() => setShowInfo((prev) => !prev)}
-            aria-label="Mostrar u ocultar información"
-            tabIndex={-1}
-          />
+              </div>
+            ))}
+          </div>
+        </div>
 
         {/* Left arrow */}
         {hasMultiple && currentImage > 0 && (
@@ -166,7 +185,10 @@ function MemoryDetailContent({
             {memory.images.map((_, idx) => (
               <button
                 key={idx}
-                onClick={(e) => { e.stopPropagation(); setCurrentImage(idx); }}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  if (emblaApi) emblaApi.scrollTo(idx);
+                }}
                 className={`rounded-full transition-all duration-200 ${
                   idx === currentImage
                     ? "w-5 h-2 bg-white"

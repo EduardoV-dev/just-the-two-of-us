@@ -24,7 +24,8 @@ export default function LoginPage() {
       });
 
       if (res.ok) {
-        router.push("/home");
+        const data = await res.json();
+        router.push(data.redirectTo || "/home");
       } else {
         setError("Eso no es correcto. Intenta de nuevo.");
         setPassword("");
