@@ -123,3 +123,23 @@ export const heroText: Variants = {
     transition: { duration: 0.8, ease },
   },
 };
+
+export const slideInFromLeft: Variants = {
+  hidden: { opacity: 0, x: -60 },
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: { duration: 0.6, ease },
+  },
+};
+
+export const letterStagger: Variants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.12,
+      delayChildren: 0.2,
+    },
+  },
+};
