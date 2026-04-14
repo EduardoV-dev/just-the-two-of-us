@@ -82,7 +82,6 @@ const links = [
   { href: "/home", label: "Inicio", Icon: HomeIcon },
   { href: "/timeline", label: "Historia", Icon: TimelineIcon },
   { href: "/letters", label: "Cartas", Icon: LettersIcon },
-  { href: "/gallery", label: "Galería", Icon: GalleryIcon },
 ];
 
 export default function Navigation() {

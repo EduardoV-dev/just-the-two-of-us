@@ -20,7 +20,9 @@
     "feeling": "Nervioso, emocionado, y muy feliz de estar contigo.",
     "images": [
       "/images/memories/first-date/1.jpg",
-      "/images/memories/first-date/2.png"
+      "/images/memories/first-date/2.png",
+      "/images/memories/first-date/3.jpg",
+      "/images/memories/first-date/4.jpg"
     ],
     "tags": ["hito"]
   },
@@ -63,7 +65,7 @@
   {
     "id": "pizza-hut-at-rubenia-date",
     "title": "Pizza Hut en Rubenia",
-    "date": "2025-12-25",
+    "date": "2025-12-25T00:00:00",
     "createdAt": "2026-04-04",
     "description": "Pizza, tú, y una noche en paz. El amor puede ser bonito y sencillo a veces.",
     "fullDescription": "Veníamos de pasar tiempo juntos en mi casa, aunque no pudimos estar juntos el 24 de diciembre, siento que recuperamos ese tiempo, ir a comer pizza solo fué una excusa para seguir compartiendo tiempo juntos.",
@@ -80,7 +82,7 @@
   {
     "id": "los-robles-food-park-pupusas-date",
     "title": "Pupusas en Los Robles Food Park",
-    "date": "2025-07-13",
+    "date": "2025-07-13T00:00:00",
     "createdAt": "2026-07-15",
     "description": "Que ricas las pupusas, pero nada como probar cosas nuevas juntos.",
     "fullDescription": "No recuerdo muy bien porque llegamos ahí, pero fué algo que no planeamos mucho, algo que ambos decidimos y quien diría que de un plan tan simple, saldrían recuerdos tan lindos, que tengo uno de ellos enmarcado en mi escritorio.",
@@ -100,10 +102,10 @@
   {
     "id": "korean-market-date",
     "title": "El Mercado Coreano en Galerías Santo Domingo",
-    "date": "2025-11-03",
-    "createdAt": "2024-08-26",
-    "description": "Probamos cosas nuevas juntos. Me encanta que te atrevas a todo.",
-    "fullDescription": "Explorar ese mercado contigo fue una experiencia distinta y divertida. Probamos sabores raros, miramos cosas curiosas, y como siempre — terminamos riéndonos de cualquier cosa. Eres mi compañera de aventuras favorita.",
+    "date": "2025-11-03T00:00:00",
+    "createdAt": "2026-04-12T00:00:00",
+    "description": "Probar cosas nuevas siempre es mejor contigo. Fué una aventura algo diferente.",
+    "fullDescription": "Recuerdo que teníamos algo de tiempo ya queriendo ir, cuando finalmente pudimos, compramos muchas cosas, y probamos de todo un poco, hasta un \"Ramen Chicloso\", las risas no faltaron como siempre, es una de las citas más tranquilas y bonitas que recuerdo.",
     "feeling": "Curioso, animado y muy feliz de descubrir cosas nuevas contigo.",
     "images": [
       "/images/memories/korean-market-date/1.jpg",
@@ -119,10 +121,10 @@
   {
     "id": "our-first-trip-laguna-de-apoyo",
     "title": "Nuestro Primer Viaje: Laguna de Apoyo",
-    "date": "2025-04-20",
-    "createdAt": "2024-09-10",
-    "description": "Manejamos lejos, cantamos horrible y amamos cada segundo.",
-    "fullDescription": "Ese fin de semana me enseñó mucho sobre nosotros. La forma en que navegamos juntos, literal y figuradamente. Cada giro equivocado se convirtió en una aventura. La Laguna de Apoyo fue el escenario perfecto para uno de nuestros mejores recuerdos.",
+    "date": "2025-04-20T00:00:00",
+    "createdAt": "2026-04-12T00:00:00",
+    "description": "Fue el viaje más largo que hicimos en ese momento, y fué el inicio de muchas más.",
+    "fullDescription": "A mí me encanta la naturaleza, pero me encantas más tú mi amor. Ese viaje a la Laguna de Apoyo fue algo que recuerdo con mucho cariño, no solo por lo hermoso del lugar, sino por la sensación de libertad y alegría que sentí estando contigo ahí. Fue el primer viaje que hicimos juntos, y me hizo darme cuenta de lo mucho que disfruto compartir momentos así contigo. además, hicimos cosas picantes en el agua, y eso lo hizo aún más memorable.",
     "feeling": "Pura libertad y alegría, con la única persona con quien quería compartirla.",
     "images": [
       "/images/memories/our-first-trip-laguna-de-apoyo/1.jpg",
@@ -137,12 +139,12 @@
   },
   {
     "id": "a-random-day-at-caracol-plaza",
-    "title": "Un Día Cualquiera en Caracol Plaza",
-    "date": "2025-06-15",
-    "createdAt": "2024-09-29",
+    "title": "Un Día Cualquiera en Plaza Caracol",
+    "date": "2025-06-15T00:00:00",
+    "createdAt": "2026-04-12T00:00:00",
     "description": "No todo tiene que ser un gran plan. A veces lo mejor es simplemente estar.",
-    "fullDescription": "Caracol Plaza, una tarde sin nada urgente que hacer. Solo nosotros dos caminando, charlando, viéndonos en los aparadores y riendo de tonterías. Los días sin plan suelen ser los más bonitos.",
-    "feeling": "En paz. Completamente en paz.",
+    "fullDescription": "Ése día fuimos a comprar algunas cosas al Super Express, exactamente no recuerdo qué, pero lo que sí recuerdo es el sentirme muy bien a tu lado, aprovechamos el espejo para marcar ese momento en nuestra historia, mostrando que no es necesario tener planes elaborados para poder disfrutar de nuestra compañia.",
+    "feeling": "En paz.",
     "images": [
       "/images/memories/a-random-day-at-caracol-plaza/1.jpg",
       "/images/memories/a-random-day-at-caracol-plaza/2.jpg"
@@ -151,23 +153,23 @@
   },
   {
     "id": "my-birthday-with-you",
-    "title": "Mi Cumpleaños Contigo",
-    "date": "2025-08-26",
-    "createdAt": "2024-10-13",
+    "title": "Mi Primer Cumpleaños Contigo",
+    "date": "2025-08-26T00:00:00",
+    "createdAt": "2026-02-12T00:00:00",
     "description": "El mejor regalo de ese día eras tú.",
-    "fullDescription": "No recuerdo otro cumpleaños en que me haya sentido tan querido. No es por las cosas materiales — es por la energía que pones en todo. Me hiciste sentir especial de una manera que no olvido.",
-    "feeling": "Amado. Completamente amado.",
+    "fullDescription": "Yo como hombre, no soy de celebrar mucho mi cumpleaños, pero ese día en serio estaba emocionado porque tú lo querías celebrar conmigo,  y eso me hizo sentir muy especial. El Cheesecake que me hiciste con tanto amor, estuvo muy delicioso, en esos momentos lo llevaba en el estómago, pero ahora se quedó por siempre en mi corazón como un bello recuerdo, gracias mi amor.",
+    "feeling": "Emocionado y muy agradecido de tener a alguien que se esfuerza por hacerme feliz.",
     "images": ["/images/memories/my-birthday-with-you/1.jpg"],
     "tags": ["hito", "cumpleaños"]
   },
   {
     "id": "at-emanuel-graduation",
-    "title": "Graduación de Emanuel",
-    "date": "2025-12-06",
-    "createdAt": "2024-10-27",
-    "description": "Un día especial para la familia, y tú estuviste ahí.",
-    "fullDescription": "Fue una celebración familiar importante, y que hayas estado ahí lo hizo todo más significativo. Ver cómo te integras, cómo te ries con todos, eso me dice mucho de quién eres. Gracias por estar en los momentos que importan.",
-    "feeling": "Orgulloso y agradecido, por dos razones ese día.",
+    "title": "Graduación de Colegio Cristiano Emanuel",
+    "date": "2025-12-06T00:00:00",
+    "createdAt": "2026-04-12T00:00:00",
+    "description": "Un día importante para mi sobrina, feliz de haberlo compartido contigo.",
+    "fullDescription": "La graduación fué un día un poco acelerado, pero al final todo salió bien, me encanta verte estando en el mismo lugar que mi familia y conviviendo con ellos, eso me hace sentir que nuestro vinculo y nuestra relación es algo más allá lo romántico, sino que también puede ser algo familiar.",
+    "feeling": "Orgulloso de mi sobrina y feliz de compartir ese momento contigo.",
     "images": [
       "/images/memories/at-emanuel-graduation/1.jpg",
       "/images/memories/at-emanuel-graduation/2.jpg",
@@ -185,10 +187,10 @@
   {
     "id": "a-date-in-the-ruben-dario-theater",
     "title": "Una Cita en el Teatro Rubén Darío",
-    "date": "2025-07-28",
-    "createdAt": "2024-11-16",
+    "date": "2025-07-28T00:00:00",
+    "createdAt": "2026-04-12T16:00:00",
     "description": "Cultura, arte, y tú a mi lado. Una noche para recordar.",
-    "fullDescription": "Ir al Teatro Rubén Darío contigo fue algo diferente a lo que acostumbramos, y fue precisamente eso lo que lo hizo tan especial. Me gusta que podamos disfrutar distintos tipos de momentos juntos — desde lo más casual hasta lo más elegante.",
+    "fullDescription": "Ir al Teatro Rubén Darío contigo fue algo diferente a lo que acostumbramos, y fue precisamente eso lo que lo hizo tan especial. Me gusta que podamos disfrutar distintos tipos de momentos juntos, desde algo más casual hasta lo algo un poco más elegante.",
     "feeling": "Sofisticado y romántico. Me sentí en otra película.",
     "images": [
       "/images/memories/a-date-in-the-ruben-dario-theater/1.jpg",
@@ -199,31 +201,54 @@
     "tags": ["cita", "cultura"]
   },
   {
-    "id": "trip-to-catarina",
-    "title": "Viaje a Catarina",
-    "date": "2026-02-15",
-    "createdAt": "2024-12-01",
-    "description": "Vista espectacular, aire fresco, y la mejor compañía.",
-    "fullDescription": "Catarina siempre ha sido un lugar especial, pero contigo tomó un significado completamente diferente. El mirador, el frío ligero, los colores del atardecer… todo se quedó grabado. Me gusta ver el mundo desde las alturas contigo.",
-    "feeling": "Tranquilo y maravillado por lo hermoso que puede ser el mundo.",
+    "id": "trip-to-catarina-el-chante",
+    "title": "Viaje a Catarina (El Chante)",
+    "date": "2026-02-15T00:00:00",
+    "createdAt": "2026-04-12T00:00:00",
+    "description": "Comida rica, ambiente tranquilo y junto al amor de mi vida.",
+    "fullDescription": "Antes de ir a Catarina, teníamos que comer, ya hace rato quería probar El Chante de carretera a Masaya, y es una experiencia bastante buena, el poder compartir comida rica contigo, el tener el privilegio de poder sentarnos en la misma mesa, comer juntos, hablar, reirnos, es algo de lo que siempre estoy muy feliz y agradecido, has venido a cambiar mi vida completamente.",
+    "feeling": "La comida sabe mejor contigo a mi lado.",
     "images": [
-      "/images/memories/trip-to-catarina/1.jpg",
-      "/images/memories/trip-to-catarina/2.jpg",
-      "/images/memories/trip-to-catarina/3.jpg",
-      "/images/memories/trip-to-catarina/4.jpg",
-      "/images/memories/trip-to-catarina/5.jpg",
-      "/images/memories/trip-to-catarina/6.jpg"
+      "/images/memories/trip-to-catarina-el-chante/1.jpg",
+      "/images/memories/trip-to-catarina-el-chante/2.jpg",
+      "/images/memories/trip-to-catarina-el-chante/3.jpg",
+      "/images/memories/trip-to-catarina-el-chante/4.jpg",
+      "/images/memories/trip-to-catarina-el-chante/5.jpg",
+      "/images/memories/trip-to-catarina-el-chante/6.jpg",
+      "/images/memories/trip-to-catarina-el-chante/7.jpg",
+      "/images/memories/trip-to-catarina-el-chante/8.jpg",
+      "/images/memories/trip-to-catarina-el-chante/9.jpg",
+      "/images/memories/trip-to-catarina-el-chante/10.jpg"
+    ],
+    "tags": ["viaje"]
+  },
+  {
+    "id": "trip-to-catarina-in-catarina",
+    "title": "Viaje a Catarina (En Catarina)",
+    "date": "2026-02-15T00:00:00",
+    "createdAt": "2026-04-12T00:00:00",
+    "description": "Vista espectacular, aire fresco, y la mejor compañía.",
+    "fullDescription": "Catarina es un lugar no tan cerca de Managua, sin embargo el viaje también es importante, pudimos ir escuchando música con los cascos, hablando de todo un poco antes de llegar. Al llegar, caminamos por el lugar, y llegamos a nuestra razón de ir, a probar el Canopy, fué una experiencia emocionante y muy diferente, no puedo esperar a seguir compartiendo momentos tan lindos contigo.",
+    "feeling": "Tú eres parte de mi mundo. Maravillado por lo hermoso que puede ser el mundo.",
+    "images": [
+      "/images/memories/trip-to-catarina-in-catarina/1.jpg",
+      "/images/memories/trip-to-catarina-in-catarina/2.jpg",
+      "/images/memories/trip-to-catarina-in-catarina/3.jpg",
+      "/images/memories/trip-to-catarina-in-catarina/4.jpg",
+      "/images/memories/trip-to-catarina-in-catarina/5.jpg",
+      "/images/memories/trip-to-catarina-in-catarina/6.jpg",
+      "/images/memories/trip-to-catarina-in-catarina/7.jpg"
     ],
     "tags": ["viaje"]
   },
   {
     "id": "trip-to-nagarote",
     "title": "Viaje a Nagarote",
-    "date": "2025-05-11",
-    "createdAt": "2024-12-15",
-    "description": "Lejos de la ciudad, cerca de ti.",
-    "fullDescription": "Nagarote no es el destino más glamoroso, pero cuando estás conmigo cualquier lugar se convierte en aventura. Ese viaje me recordó que lo que importa no es a dónde vas, sino con quién.",
-    "feeling": "Libre y completamente presente.",
+    "date": "2025-05-11T00:00:00",
+    "createdAt": "2026-04-12T00:00:00",
+    "description": "Un pequeño viaje en carro, pero con mucho significado ése día. Porque conocimos a parte de nuestras familias por primera vez.",
+    "fullDescription": "Nagarote fué una excusa de viaje para poder comer quesillos, sin embargo, fué mucho más especial cuando fuiste conmigo, porque pudiste conocer a mi tío y mi prima, dos personas que significan mucho para mí, y al mismo tiempo, yo conocí a tu madre, tal vez no de la manera más apropiada al llegar de sorpresa, pero siempre recuerdo ese día con mucho cariño.",
+    "feeling": "Feliz de que seas parte de mi pasado, presente y si Dios quiere, de mi futuro",
     "images": [
       "/images/memories/trip-to-nagarote/1.jpg",
       "/images/memories/trip-to-nagarote/2.jpg",
@@ -237,11 +262,11 @@
   {
     "id": "your-first-birthday-with-me",
     "title": "Tu Primer Cumpleaños Juntos",
-    "date": "2026-01-26",
-    "createdAt": "2025-01-19",
+    "date": "2026-01-26T00:00:00",
+    "createdAt": "2026-04-12T00:00:00",
     "description": "Quería que sintieras lo especial que eres. Espero haberlo logrado.",
-    "fullDescription": "Tu cumpleaños fue una de las fechas que más esperé desde que empezamos. Quería hacerte sentir tan querida como me haces sentir a mí todos los días. No sé si lo logré del todo, pero sé que lo intenté con todo el corazón.",
-    "feeling": "Emocionado y lleno de amor. Muy feliz de estar aquí para celebrarte.",
+    "fullDescription": "Era un día que esperaba con ansias, pero al mismo tiempo estaba nervioso porque quería sorprenderte, lo primero que se me ocurrió, fué un pastel de The Weeknd, y éso hice, me alegro mucho que te haya encantado. Verte compartir con tus familiares y amigas, también me hace sentir feliz por vos.",
+    "feeling": "Muy feliz de haber estado para celebrarte.",
     "images": [
       "/images/memories/your-first-birthday-with-me/1.jpg",
       "/images/memories/your-first-birthday-with-me/2.jpg"
@@ -251,10 +276,10 @@
   {
     "id": "our-romantic-dinner-10-month",
     "title": "Nuestra Cena Romántica: 10 Meses",
-    "date": "2026-02-27",
-    "createdAt": "2025-03-12",
+    "date": "2026-02-27T00:00:00",
+    "createdAt": "2026-04-12T00:00:00",
     "description": "Diez meses contigo. Diez meses que se sienten a la vez cortos y enormes.",
-    "fullDescription": "Quise que esa noche fuera especial. Una cena tranquila, solo nosotros dos, mirando hacia atrás con gratitud y hacia adelante con ilusión. Diez meses de crecer juntos, de conocernos más, de elegarnos cada día.",
+    "fullDescription": "Generalmente, días antes de cumplir meses, o como nosotros les decimos, nuestros Mesiversarios, planeo lo que haremos en nuestro día especial, el lugar al que fuimos fué una muy buena recomendación que me dieron, un lugar tranquilo, con comida rica y ambiente romántico. Me encantan las fotos de ése día, te ves tan hermosa como siempre mi amor.",
     "feeling": "Agradecido, enamorado, y con ganas de muchos meses más.",
     "images": [
       "/images/memories/our-romantic-dinner-10-month/1.jpg",
@@ -268,16 +293,16 @@
       "/images/memories/our-romantic-dinner-10-month/9.jpg",
       "/images/memories/our-romantic-dinner-10-month/10.jpg"
     ],
-    "tags": ["aniversario", "hito"]
+    "tags": ["mesiversario", "hito"]
   },
   {
     "id": "chainsaw-man-movie-date",
     "title": "Cita: La Película de Chainsaw Man",
-    "date": "2025-10-27",
-    "createdAt": "2025-04-06",
-    "description": "Dos frikis, una película épica, y mucho que comentar después.",
-    "fullDescription": "Ver Chainsaw Man en cine contigo fue una experiencia completamente diferente. Entre las reacciones, los comentarios en voz baja y las miraditas durante las escenas épicas, la disfruté el doble. Gracias por compartir este tipo de momentos conmigo.",
-    "feeling": "Emocionado, divertido, y muy afortunado de tener a alguien que entiende mis obsesiones.",
+    "date": "2025-10-27T00:00:00",
+    "createdAt": "2026-04-12T00:00:00",
+    "description": "Serrucho, serrucho, serrucho. Esta noche doy serrucho, serrucho, serrucho",
+    "fullDescription": "Tal vez te saque un poco de onda la descripción de éste recuerdo, pero me acuerdo que para ésta película, decidiste mirar un resumen del anime para entender mejor de que trata, y éso me demuestra que quieres compartir lo que yo disfruto conmigo, éso me hace sentir muy feliz, porque no solo quieres compartir conmigo, sino que también quieres entender lo que me gusta, y eso es algo que valoro mucho en nuestra relación. La película fué increíble, pero tu compañía la hizo super increíble.",
+    "feeling": "Emocionado y divertido.",
     "images": [
       "/images/memories/chainsaw-man-movie-date/1.jpg",
       "/images/memories/chainsaw-man-movie-date/2.jpg",
@@ -298,12 +323,12 @@
   },
   {
     "id": "trip-to-punta-cacique-double-date",
-    "title": "Punta Cacique: Doble Cita",
-    "date": "2025-06-24",
-    "createdAt": "2025-05-26",
-    "description": "El mar, buena compañía, y recuerdos que guardar.",
-    "fullDescription": "Salir en doble cita tiene su magia especial, pero lo que más recuerdo de ese día eres tú — tus risas, tu energía, lo bien que te ves con el sol de fondo. Punta Cacique fue el escenario perfecto.",
-    "feeling": "Vivo, feliz y muy enamorado.",
+    "title": "Punta Cacique: Laguna de Apoyo",
+    "date": "2025-06-24T00:00:00",
+    "createdAt": "2026-04-12T00:00:00",
+    "description": "La laguna de apoyo siempre es un excelente lugar para pasar el día, pero siempre es mejor contigo.",
+    "fullDescription": "Una doble cita curiosa, porque fué un plan que salió de la nada y sin planeación, ni siquiera nos metimos al agua esa vez, en realidad preferimos disfrutar nuestro momento juntos, pasamos hablando de muchas cosas, sobretodo, de Metal Gear Solid 3: Snake Eater, uno de mis juegos favoritos, me encanta que muestres interes en lo que me gusta, gracias, lo valoro mucho mi amor.",
+    "feeling": "feliz y muy enamorado.",
     "images": [
       "/images/memories/trip-to-punta-cacique-double-date/1.jpg",
       "/images/memories/trip-to-punta-cacique-double-date/2.jpg",
@@ -320,16 +345,63 @@
   },
   {
     "id": "she-invited-me-to-watch-superman-omg",
-    "title": "Me Invitaste a Ver Superman 😱",
-    "date": "2025-07-19",
-    "createdAt": "2025-07-13",
-    "description": "Que seas tú quien me invite al cine aún me parece un sueño.",
-    "fullDescription": "Cuando me dijiste que querías ir a ver Superman sentí algo muy bonito — no solo entusiasmo por la película, sino gratitud de que seas el tipo de persona que toma ese tipo de iniciativas. La película estuvo genial, pero la compañía lo fue más.",
-    "feeling": "Sorprendido, emocionado, y más enamorado que antes.",
+    "title": "Me Invitaste a Ver Superman 😍",
+    "date": "2025-07-19T00:00:00",
+    "createdAt": "2026-04-12T00:00:00",
+    "description": "Ver Superman me tenía emocionado, pero que me invitaras y la vieras conmigo, me hizo sentir emocionado y muy feliz.",
+    "feeling": "Muy enamorado y feliz",
+    "fullDescription": "Sabías que quería ir a ver Superman, la sorpresa me la dió tu mamá al decirme que me invitarías, en ese momento me sentí muy feliz y emocionado, en su momento, fué algo nuevo para mí, el que tu usaras tu dinero para invitarme a algo, y éso me hizo sentir muy especial, porque no solo me estabas invitando a una película, sino que también me estabas demostrando que quieres compartir momentos conmigo y que estás dispuesta a invertir en nuestra relación. La película fué increíble, pero tu compañía la hizo aún mejor.",
     "images": [
       "/images/memories/she-invited-me-to-watch-superman-omg/1.jpg",
       "/images/memories/she-invited-me-to-watch-superman-omg/2.jpg"
     ],
     "tags": ["cita", "hito"]
+  },
+  {
+    "id": "dona-tona-date-pupusas-and-delicious-food",
+    "title": "Cita en Doña Toña: Pupusas y Comida Deliciosa (Primera cita 2026)",
+    "date": "2026-01-04T00:00:00",
+    "createdAt": "2026-04-14T00:00:00",
+    "feeling": "Alegre y satisfecho.",
+    "description": "Una cita para empezar el año, con comida deliciosa y tu compañía, ¿Qué más se puede pedir?",
+    "fullDescription": "Que buena manera de empezar el año, poder volverte a ver luego de tu viaje en el Rama, ir a un lugar que no conocíamos aún y que pudieramos comer ricas pupusas, un maduro con mucho quesillo y crema, que estaba muy delicioso, y la mejor parte es siempre tu compañía.",
+    "images": [
+      "/images/memories/dona-tona-date-pupusas-and-delicious-food/1.jpg",
+      "/images/memories/dona-tona-date-pupusas-and-delicious-food/2.jpg",
+      "/images/memories/dona-tona-date-pupusas-and-delicious-food/3.jpg",
+      "/images/memories/dona-tona-date-pupusas-and-delicious-food/4.jpg",
+      "/images/memories/dona-tona-date-pupusas-and-delicious-food/5.jpg",
+      "/images/memories/dona-tona-date-pupusas-and-delicious-food/6.jpg",
+      "/images/memories/dona-tona-date-pupusas-and-delicious-food/7.jpg",
+      "/images/memories/dona-tona-date-pupusas-and-delicious-food/8.jpg",
+      "/images/memories/dona-tona-date-pupusas-and-delicious-food/9.jpg",
+      "/images/memories/dona-tona-date-pupusas-and-delicious-food/10.jpg"
+    ],
+    "tags": ["cita", "comida"]
+  },
+  {
+    "id": "la-estufa-hot-chocolate-date",
+    "title": "Cita en la Estufa: Chocolate Caliente",
+    "date": "2026-02-09T00:00:00",
+    "createdAt": "2026-04-14T00:00:00",
+    "description": "Un día como cualquier otro, probando un chocolate caliente delicioso, pero con la mejor compañía.",
+    "fullDescription": "Un día probé éste chocolate y lo primero que pensé, fué en compartirlo contigo, supe en el primer momento que lo probé, que te encantaría, y así fué, fuimos a La Estufa, pedimos nuestros chocolates calientes con malvaviscos encima, hablamos de lo cotidianos y también probamos roles de canela. Disfruté mucho el chocolate caliente contigo mi amor.",
+    "feeling": "Que rico el chocolate, pero más rico es compartirlo contigo.",
+    "images": [
+      "/images/memories/la-estufa-hot-chocolate-date/1.jpg",
+      "/images/memories/la-estufa-hot-chocolate-date/2.jpg"
+    ],
+    "tags": ["cita"]
+  },
+  {
+    "id": "social-at-chichen-itza",
+    "title": "Social en Chichen Itza",
+    "date": "2024-12-22T00:00:00",
+    "createdAt": "2026-04-14T00:00:00",
+    "description": "Un social como cualquier otro, pero que disfruté de mejor manera porque estabas conmigo.",
+    "fullDescription": "Éste es un capítulo un poco raro en nuestra historia. Para esos momentos, yo me sentía atraído hacia tí, y pues, te lo quería hacer saber con un beso, y ahí nació el famoso paso de la cobra jajajaja, creo que aunque no pasó nada, igual te hice saber que estaba interesado en ti. Un día curioso, pero que no cambiaría el como sucedió todo, tenemos unos buenos videos de ese día que me compartiste.",
+    "feeling": "Nervioso, pero alegre de compartir un social contigo",
+    "images": ["/images/memories/social-at-chichen-itza/1.jpg"],
+    "tags": ["hito", "social"]
   }
 ]

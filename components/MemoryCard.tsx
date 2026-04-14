@@ -60,7 +60,7 @@ export default function MemoryCard({
             <h3 className="font-heading text-xl md:text-2xl text-text-primary mt-1.5 mb-2">
               {memory.title}
             </h3>
-            <p className="text-text-secondary text-sm md:text-base leading-relaxed line-clamp-2">
+            <p className="text-text-secondary text-sm md:text-base leading-relaxed">
               {memory.description}
             </p>
             {memory.createdAt && (
