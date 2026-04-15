@@ -16,8 +16,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Just The Two Of Us",
-  description: "Our story, our memories, our love.",
+  title: "Solo Nosotros Dos",
+  description: "Nuestra historia, nuestros recuerdos, nuestro amor.",
 };
 
 export default function RootLayout({
