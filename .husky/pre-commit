@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+# Run lint-staged (ESLint + Prettier on staged files)
+npx lint-staged
+
+# TypeScript type checking
+npm run typecheck
+
+# Full production build — commit blocked if build fails
+npm run build
