@@ -1,0 +1,5 @@
+{
+  "extends": "@leonly/tooling/prettier",
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "tailwindStylesheet": "./src/app/globals.css"
+}

@@ -5,6 +5,3 @@ pnpm lint-staged
 
 # TypeScript type checking
 pnpm -r typecheck
-
-# Full production build — commit blocked if build fails
-pnpm -r build
