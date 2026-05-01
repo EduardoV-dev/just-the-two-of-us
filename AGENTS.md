@@ -80,19 +80,6 @@ Valid types: `feat fix docs style refactor perf test build ci chore revert`
 
 Subject: lowercase start, no trailing period, no sentence-case/PascalCase/UPPER.
 
-## Environment variables
-
-| Variable                  | Required     | Purpose                                          |
-| ------------------------- | ------------ | ------------------------------------------------ |
-| `ACCESS_PASSWORD`         | yes (server) | Site password checked by `/api/auth`             |
-
-Copy `.env.example` → `.env.local` for local dev. `ACCESS_PASSWORD` must be set or `/api/auth` returns 500.
-
-## Routing / auth model
-
-- Auth: single password → `authenticated=true` cookie (httpOnly, 30 days) set by `POST /api/auth`
-- `proxy.ts` contains routing guard logic (auth check) but **`middleware.ts` does not exist** — the guards are currently not enforced at the edge. If adding route protection, create `middleware.ts` that imports and re-exports from `proxy.ts` as `export { proxy as middleware, config }`.
-
 ## Static content
 
 All data is static JSON — no database, no API fetching. Content loaders in `src/lib/content.ts`:

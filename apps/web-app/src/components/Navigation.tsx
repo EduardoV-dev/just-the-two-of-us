@@ -59,7 +59,7 @@ function LettersIcon() {
 }
 
 const links = [
-  { to: "/home", label: "Inicio", Icon: HomeIcon },
+  { to: "/", label: "Inicio", Icon: HomeIcon },
   { to: "/timeline", label: "Historia", Icon: TimelineIcon },
   { to: "/letters", label: "Cartas", Icon: LettersIcon },
 ];
@@ -83,7 +83,9 @@ export default function Navigation() {
                 key={to}
                 to={to}
                 className={`flex min-h-[44px] min-w-[52px] flex-col items-center justify-center gap-1 rounded-lg px-3 py-1.5 transition-colors ${
-                  isActive ? "text-accent" : "text-text-muted hover:text-text-secondary"
+                  isActive
+                    ? "text-accent"
+                    : "text-text-muted hover:text-text-secondary"
                 }`}
               >
                 <motion.span

@@ -10,22 +10,14 @@ import GalleryView from "@/app/(protected)/gallery/_components/GalleryView";
 import HomeView from "@/app/(protected)/home/_components/HomeView";
 import LettersView from "@/app/(protected)/letters/_components/LettersView";
 import TimelineView from "@/app/(protected)/timeline/_components/TimelineView";
-import LoginForm from "@/app/_components/LoginForm";
 import FloatingPetals from "@/components/FloatingPetals";
 import Footer from "@/components/Footer";
 import MusicPlayer from "@/components/MusicPlayer";
 import MusicProvider from "@/components/MusicProvider";
 import Navigation from "@/components/Navigation";
 import PageTransitionWrapper from "@/components/PageTransitionWrapper";
-import { AuthProvider, useAuthContext } from "@/lib/auth-context";
 
-function ProtectedLayout() {
-  const { isAuthenticated } = useAuthContext();
-
-  if (!isAuthenticated) {
-    return <Navigate to="/" replace />;
-  }
-
+function AppLayout() {
   return (
     <MusicProvider>
       <FloatingPetals />
@@ -43,34 +35,18 @@ function ProtectedLayout() {
   );
 }
 
-function AppRoutes() {
-  const { isAuthenticated } = useAuthContext();
-
-  return (
-    <Routes>
-      <Route
-        path="/"
-        element={
-          isAuthenticated ? <Navigate to="/home" replace /> : <LoginForm />
-        }
-      />
-      <Route element={<ProtectedLayout />}>
-        <Route path="/home" element={<HomeView />} />
-        <Route path="/gallery" element={<GalleryView />} />
-        <Route path="/letters" element={<LettersView />} />
-        <Route path="/timeline" element={<TimelineView />} />
-      </Route>
-      <Route path="*" element={<Navigate to="/" replace />} />
-    </Routes>
-  );
-}
-
 export default function App() {
   return (
     <BrowserRouter>
-      <AuthProvider>
-        <AppRoutes />
-      </AuthProvider>
+      <Routes>
+        <Route element={<AppLayout />}>
+          <Route path="/" element={<HomeView />} />
+          <Route path="/gallery" element={<GalleryView />} />
+          <Route path="/letters" element={<LettersView />} />
+          <Route path="/timeline" element={<TimelineView />} />
+        </Route>
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
     </BrowserRouter>
   );
 }
