@@ -1,0 +1,31 @@
+[
+  {
+    "src": "/images/gallery/placeholder-1.jpg",
+    "caption": "Un momento para recordar",
+    "createdAt": "2024-06-01"
+  },
+  {
+    "src": "/images/gallery/placeholder-2.jpg",
+    "caption": "Nosotros siendo nosotros",
+    "createdAt": "2024-07-14"
+  },
+  {
+    "src": "/images/gallery/placeholder-3.jpg",
+    "caption": "Esa hora dorada",
+    "createdAt": "2024-08-20"
+  },
+  {
+    "src": "/images/gallery/placeholder-4.jpg",
+    "caption": "Aventuras juntos",
+    "createdAt": "2024-09-05"
+  },
+  {
+    "src": "/images/gallery/placeholder-5.jpg",
+    "caption": "Alegrías simples",
+    "createdAt": "2024-10-12"
+  },
+  {
+    "src": "/images/gallery/placeholder-6.jpg",
+    "createdAt": "2024-11-30"
+  }
+]

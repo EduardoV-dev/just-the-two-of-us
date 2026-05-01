@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+:root {
+  --background: #faf9f6;
+  --surface: #ffffff;
+  --accent: #c9a0a0;
+  --accent-hover: #b88a8a;
+  --accent-light: #f0e0e0;
+  --text-primary: #2d2a26;
+  --text-secondary: #6b6560;
+  --text-muted: #9e9891;
+  --border: #e8e4df;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-light: var(--accent-light);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-border: var(--border);
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Inter", sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--text-primary);
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent-light);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Body scroll lock utility */
+body.modal-open {
+  overflow: hidden;
+}
+
+/* Marquee animation for music player */
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee-scroll 18s linear infinite;
+  display: inline-flex;
+  gap: 4rem;
+  white-space: nowrap;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Spin animation for album art */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 8s linear infinite;
+}
+
+/* Floating petals opacity animation */
+@keyframes petal-fade {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.6;
+  }
+  85% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Embla Carousel — fullscreen image slider */
+.embla-memory {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.embla-memory__container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.embla-memory__slide {
+  position: relative;
+  flex: 0 0 100%;
+  min-width: 0;
+  width: 100%;
+  height: 100%;
+}

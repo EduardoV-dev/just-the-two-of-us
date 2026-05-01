@@ -1,52 +1,30 @@
 {
-  "name": "just-the-two-of-us",
-  "version": "0.1.0",
+  "name": "leonly",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint src/",
-    "lint:fix": "eslint src/ --fix",
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "lint:fix": "turbo lint:fix",
+    "typecheck": "turbo typecheck",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "typecheck": "tsc --noEmit",
     "prepare": "husky"
-  },
-  "dependencies": {
-    "embla-carousel-fade": "^8.6.0",
-    "embla-carousel-react": "^8.6.0",
-    "framer-motion": "^12.38.0",
-    "next": "^16.2.3",
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.5.0",
     "@commitlint/config-conventional": "^20.5.0",
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.2.2",
-    "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-jsx-a11y": "^6.10.2",
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
     "prettier": "^3.8.3",
     "prettier-plugin-tailwindcss": "^0.7.2",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "turbo": "latest"
   },
   "lint-staged": {
-    "**/*.{ts,tsx}": [
-      "eslint --fix --no-warn-ignored",
-      "prettier --write"
-    ],
     "**/*.{json,css,md}": [
       "prettier --write"
     ]
-  }
+  },
+  "packageManager": "pnpm@10.0.0"
 }
