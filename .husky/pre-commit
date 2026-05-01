@@ -1,10 +1,10 @@
 #!/usr/bin/env sh
 
 # Run lint-staged (ESLint + Prettier on staged files)
-npx lint-staged
+pnpm lint-staged
 
 # TypeScript type checking
-npm run typecheck
+pnpm -r typecheck
 
 # Full production build — commit blocked if build fails
-npm run build
+pnpm -r build
