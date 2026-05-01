@@ -85,16 +85,13 @@ Subject: lowercase start, no trailing period, no sentence-case/PascalCase/UPPER.
 | Variable                  | Required     | Purpose                                          |
 | ------------------------- | ------------ | ------------------------------------------------ |
 | `ACCESS_PASSWORD`         | yes (server) | Site password checked by `/api/auth`             |
-| `ENVIRONMENT`             | no           | Set to `production` to enable countdown lock     |
-| `NEXT_PUBLIC_UNLOCK_DATE` | no           | ISO date; defaults to `2026-04-26T02:00:00.000Z` |
 
 Copy `.env.example` → `.env.local` for local dev. `ACCESS_PASSWORD` must be set or `/api/auth` returns 500.
 
 ## Routing / auth model
 
 - Auth: single password → `authenticated=true` cookie (httpOnly, 30 days) set by `POST /api/auth`
-- `proxy.ts` contains routing guard logic (auth check + countdown lock) but **`middleware.ts` does not exist** — the guards are currently not enforced at the edge. If adding route protection, create `middleware.ts` that imports and re-exports from `proxy.ts` as `export { proxy as middleware, config }`.
-- Countdown lock only activates when `ENVIRONMENT=production` AND current time is before `UNLOCK_DATE`
+- `proxy.ts` contains routing guard logic (auth check) but **`middleware.ts` does not exist** — the guards are currently not enforced at the edge. If adding route protection, create `middleware.ts` that imports and re-exports from `proxy.ts` as `export { proxy as middleware, config }`.
 
 ## Static content
 

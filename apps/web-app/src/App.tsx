@@ -1,31 +1,23 @@
-import { BrowserRouter, Navigate, Outlet, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter,
+  Navigate,
+  Outlet,
+  Route,
+  Routes,
+} from "react-router-dom";
 
 import GalleryView from "@/app/(protected)/gallery/_components/GalleryView";
 import HomeView from "@/app/(protected)/home/_components/HomeView";
 import LettersView from "@/app/(protected)/letters/_components/LettersView";
 import TimelineView from "@/app/(protected)/timeline/_components/TimelineView";
 import LoginForm from "@/app/_components/LoginForm";
-import CountdownView from "@/app/countdown/_components/CountdownView";
 import FloatingPetals from "@/components/FloatingPetals";
 import Footer from "@/components/Footer";
 import MusicPlayer from "@/components/MusicPlayer";
 import MusicProvider from "@/components/MusicProvider";
 import Navigation from "@/components/Navigation";
 import PageTransitionWrapper from "@/components/PageTransitionWrapper";
-import { isCountdownLocked } from "@/lib/auth";
 import { AuthProvider, useAuthContext } from "@/lib/auth-context";
-
-function CountdownLayout() {
-  return (
-    <MusicProvider>
-      <FloatingPetals />
-      <MusicPlayer />
-      <main className="relative z-10 flex-1">
-        <Outlet />
-      </main>
-    </MusicProvider>
-  );
-}
 
 function ProtectedLayout() {
   const { isAuthenticated } = useAuthContext();
@@ -53,28 +45,14 @@ function ProtectedLayout() {
 
 function AppRoutes() {
   const { isAuthenticated } = useAuthContext();
-  const locked = isCountdownLocked();
-
-  if (locked) {
-    return (
-      <Routes>
-        <Route element={<CountdownLayout />}>
-          <Route path="/countdown" element={<CountdownView />} />
-        </Route>
-        <Route path="*" element={<Navigate to="/countdown" replace />} />
-      </Routes>
-    );
-  }
 
   return (
     <Routes>
       <Route
         path="/"
-        element={isAuthenticated ? <Navigate to="/home" replace /> : <LoginForm />}
-      />
-      <Route
-        path="/countdown"
-        element={<Navigate to={isAuthenticated ? "/home" : "/"} replace />}
+        element={
+          isAuthenticated ? <Navigate to="/home" replace /> : <LoginForm />
+        }
       />
       <Route element={<ProtectedLayout />}>
         <Route path="/home" element={<HomeView />} />
